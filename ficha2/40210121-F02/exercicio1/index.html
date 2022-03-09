@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ficha 2</title>
+    <link rel="manifest" href="Not.json">
+</head>
+<body>
+    <h1>Euromilhões</h1>
+<br>
+    <div class="container">
+    <p id="number">Numeros</p>
+    <p id="stars">Estrelas</p>
+        <button type="button" class="btn btn-primary" onclick="">Gerar os numeros</button>
+</div>
+
+<script>
+    function gerar(){
+        let string1 = "Números: ";
+        let string2 = "Estrelas: ";
+        let numero = 0;
+        let estrela = 0;
+
+        for(let i = 0; i<5; i++){
+            numero = Math.floor(Math.random() * 51);
+            string1 = string1 + numero + " - "
+        }
+        for(let e = 0; e<2; e++){
+            estrela = Math.floor(Math.random() * 12)+1;
+            string2 = string2 + estrela + " - "
+        }
+        let num = document.getElementById("number");
+        let est = document.getElementById("stars");
+        num.innerHTML = string1;
+        est.innerHTML = string2;
+    }
+</script>
+
+</body>
+</html>

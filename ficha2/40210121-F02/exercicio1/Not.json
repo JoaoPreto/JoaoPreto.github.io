@@ -1,0 +1,27 @@
+{
+    "short_name" : "Euromilhoes" ,
+    "name" : "Euromilhoes" ,
+    "start_url" : "index.html" ,
+    "display" : "fullscreen" ,
+    "icons" : [
+        {
+            "src": "Icon/icon-192x192.png" ,
+            "type": "image/png" ,
+            "sizes": "192x192" 
+        }, 
+        {
+            "src": "Icon/icon-256x256.png" ,
+            "type": "image/png" ,
+            "sizes": "256x256" 
+        },
+        {
+            "src": "Icon/icon-384x384.png" ,
+            "type": "image/png" ,
+            "sizes": "384x384" 
+        }
+
+
+    ]
+
+    
+}
