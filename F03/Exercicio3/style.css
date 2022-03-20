@@ -1,0 +1,70 @@
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .wrapper1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 5px;
+      }
+
+      .wrapper1 > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 50px;
+      }
+}
+
+@media (min-width: 982px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .wrapper > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 50px;
+  }
+
+@media (min-width: 576px) {
+ .wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+    }
+    .wrapper2 > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 50px;
+      }
+      .wrapper3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        gap: 5px;
+        padding: 5px;
+        text-align: center;
+      }
+      .wrapper3 > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 50px;
+      }
+}
