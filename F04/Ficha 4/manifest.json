@@ -1,0 +1,20 @@
+{
+    "name": "NBA" ,
+    "short_name": "NBA" ,
+    "display" : "fullscreen" , 
+    "start_url" : "index.html",
+    "background_color" : "#ffffff" , 
+
+    "icons": [
+        {
+            "src": "icon1-500x500.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        },
+        {
+            "src": "icon2-900x900.jpg",
+            "sizes": "900x900",
+            "type": "image/jpg"
+        }
+    ]
+}
